@@ -1,0 +1,5 @@
+.idea/
+mammuthus-nginx.iml
+logs/
+config/application.yml
+target/

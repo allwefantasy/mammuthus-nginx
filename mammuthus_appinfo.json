@@ -1,0 +1,19 @@
+{
+  "clzz": "-",
+  "source": "start",
+  "param": [
+    {
+      "name": "nginxNodes",
+      "parameterType": "string",
+      "app": "-",
+      "label": "nginxNodes",
+      "desc": "关联的Nginx服务器",
+      "priority": 1,
+      "actionType": "normal",
+      "value": "LetvWebServer-4F82AC,LetvWebServer-4F81DE",
+      "formType": "normal",
+      "comment": ""
+    }
+  ],
+  "registerType": "AppLifeCycle"
+}

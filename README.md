@@ -78,8 +78,28 @@ curl -XPOST http://[dns/ip]:8001/remove/servers/from/upstream -d 'name=backend&i
 }
 ```  
 
+## 部署
 
+将该服务部署在Nginx所在的服务器即可。通过修改`config/application.yml`里配置参数
+可以告知Nginx的配置文件位置：
+
+譬如：
+
+```
+nginx:
+  config:
+      path: /Users/allwefantasy/temp/upstream.conf
+```
+
+reload命令配置方式为：
   
+```
+nginx:
+  command:
+     path: /etc/init.d/nginx
+```
+
+启动类为： `mammuthus.server.nginx`
 
 
 
